@@ -17,6 +17,5 @@ def print_first_directors_movie_titles
   puts directors_database[0][:movies][title_count][:title]
   title_count += 1
   end
+  pp directors_database
 end
-
-pretty_print_nds
