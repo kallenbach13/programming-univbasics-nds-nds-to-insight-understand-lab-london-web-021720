@@ -12,10 +12,12 @@ def print_first_directors_movie_titles
   require 'pp'
   require 'pry'
   title_count = 0
- # binding.pry
+ binding.pry
   while title_count < directors_database[0][:movies].count do
   puts directors_database[0][:movies][title_count][:title]
   title_count += 1
   end
   pp directors_database
 end
+
+print_first_directors_movie_titles
